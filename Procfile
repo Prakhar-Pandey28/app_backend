@@ -1,1 +1,1 @@
-web: npm run start: nest start
+web: npm start
