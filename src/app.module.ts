@@ -2,6 +2,7 @@ import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
 import { UserController } from './user/user.controller';
 import { UserService } from './user/user.service';
+import { UserRepository } from './repositories/user.repository';
 
 @Module({
   imports: [
