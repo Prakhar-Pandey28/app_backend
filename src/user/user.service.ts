@@ -4,6 +4,7 @@ import { UserCreationDTO } from '../interfaces/user-creation.dto'; // Import the
 import { hashPassword } from '../utils/password.utils';
 import { User } from 'src/interfaces/user.interface';
 
+
 @Injectable()
 export class UserService {
   async login(credentials: { username: string; password: string; }) {
